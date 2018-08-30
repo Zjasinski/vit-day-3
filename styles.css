@@ -32,7 +32,13 @@ progress {
   font-weight: 100px;
   font-family: cursive;
 }
-
+.challengeTitle {
+  background: cornflowerblue;
+  color: chocolate;
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bolder;
+}
 
 header {
   background: white;
