@@ -13,11 +13,13 @@ function getComputerChoice() {
     const randomNumber = Math.floor(Math.random() * 3);
     return choices[randomNumber];
 }
-console.log(getComputerChoice[]);
 
 function game(userChoice) {
-
+    const computerChoice = getComputerChoice();
+    console.log("user choice =>" + userChoice);
+    console.log("computer choice =>" + computerChoice);
 }
+game("c");
 
 function main() {
     rock_div.addEventListener("click", function() {
